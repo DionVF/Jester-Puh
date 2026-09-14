@@ -37,4 +37,12 @@ label NamePrompt:
     if MC_Name.lower() == "gaster":
         $ renpy.quit()
     
+    python:
+        Dog_Name = renpy.input("What would you like to name your dog?", length=25)
+
+        if not Dog_Name:
+            Dog_Name = "Coco"
+
+    
+
     jump ScriptContinue

@@ -28,9 +28,11 @@ label ScriptContinue:
 
     Player_Internal "You're blinded by the sun shining in your eyes as it decided it was your time to be thrust into the spotlight."
 
-    Player_Internal "The cars outside your apartment revved their engines which finally brought you to open your eyes."
+    Player_Internal "[Dog_Name] jumps onto your stomach, knocking the wind out of you."
 
-    Player_Internal "You reluctantly greet the blinding light, the bright glow seeming to hold a grudge against you as not even turning to lay on your side offered much relief."
+    Player_Internal "You lift yourself up to sit against the headboard."
+
+    # Player_Internal "You reluctantly greet the blinding light, the bright glow seems to hold a grudge against you as not even turning to lay on your side offered much relief."
 
     Player_Internal "Tossing the blanket off yourself, you sluggishly move each of your limbs with great effort until you manage to perch on the edge of the bed."
 
@@ -47,11 +49,17 @@ label ScriptContinue:
 
     Player_Internal "You still had some time to kill before work so you decided to fit a few things in beforehand. Maybe you'll finally be able to finish that one project that's been brewing in your mind for the last week."
 
-    Player_Internal "You check your email, still no response from jobs you've applied to but that's no surprise."
+    Player_Internal "You check your email for the tenth time this week, and still, no response from jobs you've applied to."
+
+    Player_Internal "All you wish is to have a job that doesn't have you working ridiculously long hours for a ridiculously small amount of pay yet none that are decent have presented themselves as looking for employees."
+
+    Player_Internal "It feels like a wild goose chase with no end in sight."
+
+
 
     scene bg black
 
-    Player_Internal "Instead of being productive, you decide to go on a walk. It usually helps to clear your mind and get you relaxed enough so you can spare some extra patience with the more… difficult customers."
+    Player_Internal "Next, you decide the best thing to do is go on a walk. It helps to clear your mind and [Dog_Name] refuses to give you peace so in a way, it kills two birds with one stone."
 
     scene bg outside street
     with fade

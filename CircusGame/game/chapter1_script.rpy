@@ -25,13 +25,29 @@ label chapter1:
 
 
         "Play games":
-            Player_Internal ""
+            Player_Internal "What's a better way to spend your time then hopping on your favourite game?"
+            Player_Internal "It's been a while since you've played any game really, life's really been kicking you in the ass."
+            Player_Internal "You sit down in your chair and turn on the game, watching the loading bar gradually fill the bottom until it reaches the end."
+            Player_Internal "You lose track of time, an hour feeling like ten minutes as you continue to play."
 
         "Draw":
-            Player "Uh"
+            Player_Internal "Glancing over at your sketchpad, you realise that you haven't really drawn much at all. The last few weeks of your life have been so filled with things to do that you forgot about it entirely."
+            Player_Internal "It takes you a few minutes to find your pencils and you scoop up your sketchbook on the way to your swivel chair tucked into the corner of the living room."
+            Player_Internal "You flip the pages, catching brief flashes of old doodles and drawings that have been gradually filling the book."
+            Player_Internal "A clean page soon presents itself and you get to work filling it with little drawings and sketches."
+            Player_Internal "Not long after when the page is half filled, you feel your eyelids grow heavy. With each minute it gets harder for you to stay awake."
+            Player_Internal "It's a losing battle as you fight to stay awake, your sketchbook slipping from your hands as it topples down onto the floor."
+            Player_Internal "Black is the only thing you can see, and you let yourself lose the battle against your fatigue and you decide that maybe it is best to take a small nap."
+
+
 
         "Watch a show":
-            Player "Um"
+            Player_Internal "Searching for the remote took longer than you would've liked, and you have a sneaky suspicion on why that is."
+            Player_Internal "You soon find it piled with a few other toys, thanking the heavens that this time [Dog_Name] hadn't chewed it to shreds."
+            Player_Internal "It isn't before long you decide on a suitable candidate and let your mind focus on the show, refusing to think about work or anything that'll stress you out."
+            Player_Internal "The continuous sound of the show drifts into the background as you feel your mind begin to relax a little more than expected."
+            Player_Internal "Your eyes begin to flutter, and soon, sleep overcomes you. There's no harm in a small nap before work."
+            Player_Internal "Darkness invades your vision as time slips by while the show drones on in the background."
 
         "Tidy the apartment":
             Player "Hm"
@@ -101,6 +117,12 @@ label chapter1:
 
     Player_Internal "You're not one to judge though, eating a few sweets surely wouldn't inhibit her ability to put on a good show."
 
+    Player_Internal "The rain outside picks up, hammering against the store windows."
+
+    Player_Internal "That's when you take notice of the way her hair is askew, droplets still clinging to the strands."
+
+    Player_Internal "Several strands are out of place. You ask yourself it it's wise to tell her."
+
     menu: # Finish this menu!!
         "What should I do?" 
 
@@ -146,6 +168,22 @@ label chapter1:
     Player "No, not the last time I checked."
 
     Jester "Then it looks like we've come to an understanding."
+
+    Jester "Soooo..."
+
+    Jester "Ever think of coming to the circus?"
+
+    menu:
+        "What should I say?"
+
+        "Looks interesting.":
+            Player " Im, gonjna kill myself"
+
+        "Hasn't crossed my mind.":
+            Player "Genji"
+
+        "If you're there.":
+            Player_Internal "Loser."
 
 
 
