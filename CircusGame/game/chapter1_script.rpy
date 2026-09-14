@@ -29,6 +29,9 @@ label chapter1:
             Player_Internal "It's been a while since you've played any game really, life's really been kicking you in the ass."
             Player_Internal "You sit down in your chair and turn on the game, watching the loading bar gradually fill the bottom until it reaches the end."
             Player_Internal "You lose track of time, an hour feeling like ten minutes as you continue to play."
+            Player_Internal "When your eyes begin to sting, you think it's from staring at the game for too long and pouring your focus into it, but tearing your eyes away from the screen offers no relief."
+
+
 
         "Draw":
             Player_Internal "Glancing over at your sketchpad, you realise that you haven't really drawn much at all. The last few weeks of your life have been so filled with things to do that you forgot about it entirely."
@@ -93,23 +96,23 @@ label chapter1:
 
     Player_Internal "Your eyes casually glance around, trying to get another peak at the stranger."
 
-    Jester "{b}{i}Excuse me?{/i}{/b}"
+    Unknown "{b}{i}Excuse me?{/i}{/b}"
 
     Player_Internal "A woman's voice calls to you from across the counter, you jump slightly in surprise."
 
     Player_Internal "The source of your scare chuckles, leading you to look over."
 
-    # Once complete, add an Internal Dialogue describing the Jester's design.
+    # Once design is finalized, add an Internal Dialogue describing the Jester's design.
 
     Player_Internal "She waves your attention back to her."
 
-    Jester "You scare too easily."
+    Unknown "You scare too easily."
 
     Player_Internal "Your eyebrow raises at her statement. What did she expect? Despite the bells, she's as quiet as a mouse."
 
     Player_Internal "Or a butterfly, to be more accurate."
 
-    Jester "Just these."
+    Unknown "Just these."
 
     Player_Internal "Your eyes drop down to the items she places on the desk. Just a couple snacks and drinks. Huh."
 
@@ -121,23 +124,33 @@ label chapter1:
 
     Player_Internal "That's when you take notice of the way her hair is askew, droplets still clinging to the strands."
 
-    Player_Internal "Several strands are out of place. You ask yourself it it's wise to tell her."
+    Player_Internal "Several strands are out of place. You ask yourself if it's wise to tell her."
 
     menu: # Finish this menu!!
         "What should I do?" 
 
-        "Mention it.":
-            Player "Is it a good idea to eat all of this stuff before a show?"
+        "Mention it.": # Neutral-Positive option.
+            Player "I think your hair got messed up by the rain."
+            Unknown "Oh..."
+            Unknown "thanks."
+            Player_Internal "The Jester runs her hand through her hair, straightening the wild hairs."
+            $ JesterAffection + 1
+            # Increase Terah Affection by 1 point.
+            
 
-        "Stay silent.":
+        "Stay silent.": # Neutral option.
             Player_Internal "You don't say a word."
 
-        "Compliment her.":
+        "Compliment her.": # Positive option.
             Player "Fuh me."
 
-    Player_Internal "Silence settles for a few seconds as you finish scanning the last item. Then, just as the scanner beeps for the final time-{nw}"
+    Player_Internal "You continue to scan and bag the last of the jester's items."
 
-    Jester "{cps=90}You wouldn't mind if I placed one of our posters in the window, would you?"
+    Player_Internal "Silence settles for a few seconds as you grab the final item. Then, just as the scanner beeps-{nw}"
+
+    Unknown "{cps=90}You wouldn't mind if I placed one of our posters in the window, would you?"
+
+    Player_Internal "A strange thing to suddenly ask but not the worst thing you've heard."
 
     Player_Internal "It isn't really your place to say no."
 
@@ -149,40 +162,40 @@ label chapter1:
 
     Player "You're with the group that's been putting up all those posters for the show, right?"
 
-    Jester "How long did it take you to figure that one out?"
+    Unknown "How long did it take you to figure that one out?"
 
     Player_Internal "You let out a huff at the jester's comment. After a long shift the last thing you need is a jester mocking you."
 
-    Jester "but yeah, we got here yesterday."
+    Unknown "but yeah, we got here yesterday."
 
     Player_Internal "The jester finishes placing the poster on the window. She walks back to the counter."
 
     Player "Isn't it a bit late for you to be promoting? It's like 8."
 
-    Jester "What's the harm in putting up some posters at this hour?"
+    Unknown "What's the harm in putting up some posters at this hour?"
 
-    Jester "It's not illegal, is it?"
+    Unknown "It's not illegal, is it?"
 
     Player_Internal "If you didn't know any better, you'd think she sounded sincere."
 
     Player "No, not the last time I checked."
 
-    Jester "Then it looks like we've come to an understanding."
+    Unknown "Then it looks like we've come to an understanding."
 
-    Jester "Soooo..."
+    Unknown "Soooo..."
 
-    Jester "Ever think of coming to the circus?"
+    Unknown "Ever think of coming to the circus?"
 
     menu:
         "What should I say?"
 
-        "Looks interesting.":
+        "Looks interesting.": # Neutral option
             Player " Im, gonjna kill myself"
 
-        "Hasn't crossed my mind.":
+        "Hasn't crossed my mind.": # Negative option
             Player "Genji"
 
-        "If you're there.":
+        "If you're there.": # Positive option
             Player_Internal "Loser."
 
 

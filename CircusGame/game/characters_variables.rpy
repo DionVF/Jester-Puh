@@ -13,13 +13,14 @@ define Player_Internal = Character("[MC_Name]", what_color="#8f8f8f", color="#cc
 define Player = Character("[MC_Name]", color="#ccede8", what_font="Lora.ttf", font="Lora.ttf")
 define L = Character("Liam", color="#573b31")
 
-define Jester = Character("Terah", color="#e05441", what_font="PTSerifCaption.ttf", font="Quintessential.ttf", what_slow_cps=35)
-define Acrobat = Character("Monroe", color="#6400a7", what_font="PTSerifCaption.ttf", font="Quintessential.ttf")
-define Ringmaster = Character("Asteria", color="#862514", what_font="PTSerifCaption.ttf", font="Quintessential.ttf")
-define Mime = Character("Muni", color="#666666", what_font="PTSerifCaption.ttf", font="Quintessential.ttf", what_size=15)
-define Equil = Character("Galen", color="#55aa06", what_font="PTSerifCaption.ttf", font="Quintessential.ttf")
-define Contort = Character("Lucia", color="#bbb9b8", what_font="PTSerifCaption.ttf", font="Quintessential.ttf")
-define Strongman = Character("Kendon", color="#dab53c", what_font="PTSerifCaption.ttf", font="Quintessential.ttf")
+define Jester = Character("Jester", color="#e05441", what_font="PTSerifCaption.ttf", font="Quintessential.ttf", what_slow_cps=35)
+define Acrobat = Character("Acrobat", color="#6400a7", what_font="PTSerifCaption.ttf", font="Quintessential.ttf")
+define Ringmaster = Character("Ringmaster", color="#862514", what_font="PTSerifCaption.ttf", font="Quintessential.ttf")
+define Mime = Character("Mime", color="#666666", what_font="PTSerifCaption.ttf", font="Quintessential.ttf", what_size=15)
+define Equil = Character("Equil", color="#55aa06", what_font="PTSerifCaption.ttf", font="Quintessential.ttf")
+define Contort = Character("Contort", color="#bbb9b8", what_font="PTSerifCaption.ttf", font="Quintessential.ttf")
+define Strongman = Character("Strongman", color="#dab53c", what_font="PTSerifCaption.ttf", font="Quintessential.ttf")
+define Unknown = Character("???", color="#f1e9e8", what_font="PTSerifCaption.ttf", font="Quintessential.ttf", what_slow_cps=35)
 
 
 

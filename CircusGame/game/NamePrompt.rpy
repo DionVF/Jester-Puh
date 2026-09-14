@@ -12,7 +12,7 @@ label NamePrompt:
     if MC_Name.lower() == "test":
         jump TestPlayground
 
-    if MC_Name.lower() == "terah":
+    if MC_Name.lower() == "jester":
         Jester "A bit unoriginal, aren't you?"
         jump NamePrompt
 
@@ -23,7 +23,7 @@ label NamePrompt:
     if MC_Name.lower() == "gaster":
         $ renpy.quit()
     
-    if MC_Name.lower() == "monroe":
+    #if MC_Name.lower() == "monroe":
         Acrobat "I'm flattered you want to use my name, but surely you can think of something else, little one?"
         jump NamePrompt
 
@@ -31,10 +31,10 @@ label NamePrompt:
         Max "I'm Max Johnson!"
         jump NamePrompt
 
-    if MC_Name.lower() == "gaster":
+    #if MC_Name.lower() == "gaster":
         $ renpy.quit()
 
-    if MC_Name.lower() == "gaster":
+    #if MC_Name.lower() == "gaster":
         $ renpy.quit()
     
     python:
